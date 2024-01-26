@@ -223,7 +223,7 @@ print("Probabilities related to the confidence interval")
 print("NON-Parametric:")
 print("prob that the true median is in the confidence interval(Version 1) for NON Parametric = ", vers1_NON/iter)
 print("prob that the true median is in the confidence interval(Version 2) for NON Parametric = ", vers2_NON/iter)
-
+print("P")
 print(" ")
 print("Parametric:")
 print("prob that the true median is in the confidence interval(Version 1) for Parametric = ", vers1_PARA/iter)
