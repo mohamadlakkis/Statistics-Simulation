@@ -5,6 +5,9 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 '''
+In this question we are interested in  
+'''
+'''
 PART A
 We will use the Rejection Region for alpha-level test (upper tail test) which is t>= t_alpha, with df = nx+ny-2 = 43 in this example, so if t is greater than this value we will reject H0 and we will take HA, note that in these rejection we will have sometimes where we reject H0 and H0 is true. So it will contain Type I error also. 
 '''

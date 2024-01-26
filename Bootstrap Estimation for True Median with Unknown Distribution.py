@@ -219,8 +219,12 @@ for i in range(iter):
     if low2_PARA <= TRUE_MEDIAN <= high2_PARA:
         vers2_PARA += 1
 # These calculations will be prob 1 (like discusssed earlier )
+print("Probabilities related to the confidence interval")
+print("NON-Parametric:")
 print("prob that the true median is in the confidence interval(Version 1) for NON Parametric = ", vers1_NON/iter)
 print("prob that the true median is in the confidence interval(Version 2) for NON Parametric = ", vers2_NON/iter)
-print("AAAAAAAAAAAAAAAAAAAAAA")
+
+print(" ")
+print("Parametric:")
 print("prob that the true median is in the confidence interval(Version 1) for Parametric = ", vers1_PARA/iter)
 print("prob that the true median is in the confidence interval(Version 2) for Parametric = ", vers2_PARA/iter)
